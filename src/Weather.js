@@ -56,6 +56,17 @@ export default function Weather() {
         </div>
         <div className="weather-forecast" id="forecast"></div>
       </div>
+      <small>
+        <a
+          href="https://github.com/beerbumm/weather-app"
+          target="_blank"
+          rel="noreferrer"
+          id="github-link"
+        >
+          Open source code
+        </a>
+        by Chelsea Watson
+      </small>
     </div>
   );
 }
