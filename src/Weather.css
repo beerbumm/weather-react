@@ -1,0 +1,183 @@
+body {
+  background-color: white;
+}
+.weather-container {
+  width: 800px;
+  height: 500px;
+  color: white;
+  background: linear-gradient(to bottom, #1c2546, #9542ad);
+  border-radius: 10px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto 0;
+}
+
+.search-input {
+  background: #f9f7fe;
+  border: none;
+  border-radius: 6px;
+  color: rgba(39, 33, 66, 0.4);
+  display: inline-block;
+  font-size: 16px;
+  height: 50px;
+  line-height: 20px;
+  padding: 15px 20px;
+  margin-left: 90px;
+  width: 80%;
+  margin-top: 30px;
+}
+
+.search-btn {
+  width: 80%;
+  border-radius: 10px;
+  color: white;
+  background-color: #9542ad;
+  padding: 10px 10px;
+  border: none;
+  margin-top: 33px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.row {
+  display: flex;
+}
+
+ul {
+  display: block;
+}
+
+li {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 20px;
+  list-style: none;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+.weather h1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 29px;
+  line-height: 48px;
+  margin: 50px 0 5px 50px;
+}
+.weather .temperature {
+  color: white;
+  font-size: 65px;
+  font-weight: 500;
+  line-height: 1;
+  margin-left: -20px;
+}
+
+.unit {
+  margin-left: 5px;
+  margin-top: 40px;
+}
+
+.current-temp {
+  align-items: center;
+  margin-top: 65px;
+  margin-left: 100px;
+  margin-right: 80px;
+}
+
+.WeatherForecast {
+  padding-bottom: 50px;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.forecast-container {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+}
+
+.forecast-temperature {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+}
+
+.degree {
+  align-items: center;
+}
+
+strong {
+  padding: 5px 5px;
+}
+
+.cloud-icon {
+  font-size: 40px;
+  margin: 20px;
+}
+
+.sun-icon {
+  font-size: 40px;
+  margin: 20px;
+}
+
+.degree-min {
+  opacity: 0.7;
+}
+
+#icon {
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+#humidity {
+  font-weight: bolder;
+}
+
+#wind-speed {
+  font-weight: bolder;
+}
+#percent {
+  font-weight: bolder;
+  margin-left: 3px;
+}
+
+#mph {
+  font-weight: bolder;
+  margin-left: 3px;
+}
+
+#wind {
+  margin-left: 5px;
+}
+
+#time {
+  font-weight: bolder;
+  margin-left: 5px;
+}
+
+#fahrenheit-link {
+  text-decoration: none;
+  color: white;
+}
+
+#celsius-link {
+  text-decoration: none;
+  color: white;
+}
+
+#github-link {
+  text-decoration: none;
+  margin-left: 320px;
+}
+
+#forecast {
+  margin-top: 95px;
+}
+
+small {
+  margin-left: 10px;
+}
